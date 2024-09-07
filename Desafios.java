@@ -44,7 +44,7 @@ public class Desafios{
         {
             int count = 0;
             for(int i = 0; i< p.length(); i++){
-                if((p.substring(i,i+1).toLowerCase()).equals("a")) //Converte tudo para minúscula mesmo que a entrada seja maiúscula
+                if (Character.toLowerCase(p.charAt(i)) == 'a') //Converte tudo para minúscula mesmo que a entrada seja maiúscula
                 {
                     count++;
                 }
